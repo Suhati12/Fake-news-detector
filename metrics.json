@@ -1,0 +1,49 @@
+{
+    "dataset_total": 39100,
+    "train_samples": 31280,
+    "test_samples": 7820,
+    "features_count": 25000,
+    "best_model": "LinearSVC",
+    "models": {
+        "Naive Bayes": {
+            "name": "Multinomial Naive Bayes",
+            "accuracy": 96.07,
+            "precision": 95.22,
+            "recall": 96.26,
+            "f1_score": 95.74,
+            "confusion_matrix": [
+                [
+                    4066,
+                    173
+                ],
+                [
+                    134,
+                    3447
+                ]
+            ],
+            "train_time_sec": 0.04
+        },
+        "LinearSVC": {
+            "name": "Linear Support Vector Classifier",
+            "accuracy": 99.04,
+            "precision": 98.94,
+            "recall": 98.97,
+            "f1_score": 98.95,
+            "confusion_matrix": [
+                [
+                    4201,
+                    38
+                ],
+                [
+                    37,
+                    3544
+                ]
+            ],
+            "train_time_sec": 0.6
+        }
+    },
+    "target_names": [
+        "Real News",
+        "Fake News"
+    ]
+}
